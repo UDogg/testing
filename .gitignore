@@ -1,0 +1,60 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore the virtual environment directory
+venv/
+.env
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore static files (CSS, JS, images)
+/static/
+/assets/
+
+# Ignore media files (user-uploaded content)
+/media/
+
+# Ignore log files
+*.log
+
+# Ignore sensitive or private information
+secret_key.txt
+
+# Ignore IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+.env
+
+# Ignore backup files
+*~
+*.bak
+
+# Mac-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
